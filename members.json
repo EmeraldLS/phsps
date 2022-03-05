@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Lawrence segun",
+        "position": "project designer",
+        "img": "./asset/images/img11.jpg"
+    }, {
+        "name": "Badarado James",
+        "position": "CyberSecurity",
+        "img": "./asset/images/04-2.jpg"
+    }, {
+        "name": "Damilanre Abideen",
+        "position": "Editor",
+        "img": "./asset/images/05-1.jpg"
+    }, {
+        "name": "Fred Chuks",
+        "position": "Executive Chairman",
+        "img": "./asset/images/06-1.jpg"
+    }, {
+        "name": "Earl Samm",
+        "position": "CEO PHSPS",
+        "img": "./asset/images/img12.jpg"
+    }, {
+        "name": "Udo John",
+        "position": "Software Engineer",
+        "img": "./asset/images/img13.jpg"
+    },{
+        "name": "Hakeem Sule",
+        "position": "Cleaner",
+        "img": "./asset/images/img10.jpg"
+    },{
+        "name": "Theodore Kennedy",
+        "position": "Assiatant",
+        "img": "./asset/images/img9.jpg"
+    },{
+        "name": "Bessie Vargas",
+        "position": "STGEI assisstant",
+        "img": "./asset/images/img7.jpg"
+    },{
+        "name": "Brandie Graham",
+        "position": "Laravel Dev",
+        "img": "./asset/images/img4.jpg"
+    }
+]

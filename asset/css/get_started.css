@@ -1,0 +1,139 @@
+.form__content{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff580;
+    padding: 20px;
+    font-family: 'Sora', sans-serif;
+    z-index: 1;
+}
+
+body{
+    pointer-events: none;
+}
+
+.content{
+    border-radius: 10px;
+    height: 100%;
+    width: 50%;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.1);
+    padding: 20px 40px;
+    background-image: linear-gradient(#fff477, #eedb04);
+}
+
+@media (max-width:550px){
+    .content{
+        height: 100%;
+        width: 90%;
+    }
+    .content>h1{
+        font-size: 20px;
+    }
+}
+
+
+.input-group-text{
+    background-color: transparent !important;
+    border: 0;
+    border-bottom: 1px solid #211f24;
+}
+
+.form-control{
+    border: 0 !important;
+    border-bottom: 1px solid #211f24 !important;
+    transition: all 0.4s ease;
+    background: transparent;
+}
+
+.form-control:active, .form-control:focus{
+    background: #fff580;
+}
+
+.form-control:focus, .form-control:active{
+    box-shadow: none;
+    caret-color: #211f24;
+    border-bottom:1px solid red;
+}
+
+.form-control::placeholder{
+    color: rgba(33, 31, 36, 0.5);
+    text-transform: capitalize;
+}
+
+.form-control option{
+    color: rgba(33, 31, 36, 0.5) !important;
+
+}
+
+.button{
+    text-decoration: none;
+    color: #FDE908;
+    background: #211f24;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+@media screen {
+    
+}
+
+.btn2:last-child{
+    background: transparent;
+    border: 1px solid #211f24;
+    color: #211f24;
+}
+
+.btn1{
+    padding: 5px 20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    color: #211f24;
+    background: #FDE908;
+}
+
+.button:hover{
+    text-decoration: none;
+}
+
+.started__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media (max-width:510px) {
+    .form-control::placeholder{
+        font-size: 10px;
+    }
+
+}
+
+
+textarea.form-control::placeholder{
+    margin-top: 40px !important;
+}
+
+::-webkit-scrollbar{
+    width: 8px !important;
+}
+
+::-webkit-scrollbar-track{
+    background: #FDE908 !important;
+    border-radius: 15px !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #211f24;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #211f24;
+}
